@@ -1,0 +1,4 @@
+# load the landmark data set and show columns
+lmdataset = 'datasets/train.csv'
+landmrks_df=pd.read_csv(lmdataset)
+landmrks_df.columns
